@@ -6,7 +6,13 @@ Docker version with API Version 1.39 fix for kubernetes init problem.
 The latest docker version comes with docker API version 1.40 and causes kubernetes error. 
 To solve the above problem we have this.
 
-clone this repo and run sh install.sh in your shell (which would install docker and all its dependency )
+clone this repo and run 
+
+$ sh install.sh 
+      or
+$ ./install.sh
+
+in your shell as root (which would install docker and all its dependency )
 docker version is 18.09.9
 and docker APi - 1.39
 
