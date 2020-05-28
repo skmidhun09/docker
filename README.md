@@ -9,7 +9,9 @@ To solve the above problem we have this.
 clone this repo and run 
 
 $ sh install.sh 
+      
       or
+      
 $ ./install.sh
 
 in your shell as root (which would install docker and all its dependency )
